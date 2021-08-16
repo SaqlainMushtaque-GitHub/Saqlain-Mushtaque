@@ -1,0 +1,3 @@
+x = int(input("Enter The First Value"))
+y = int(input("Enter The Second Value"))
+print (x**y)

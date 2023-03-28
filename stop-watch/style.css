@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.watch {
+    margin: 50px auto;
+    background-color: rgba(16 18 27 / 40%);
+    position: relative;
+    height: 400px;
+    width: 500px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+.btn {
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    /* margin: 10px 20px; */
+    height: 45px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 30px;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn {
+    background-image: linear-gradient(
+        to right,
+        #6253e1,
+        #852d91,
+        #a3a1ff,
+        #f24645
+      );
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  }
